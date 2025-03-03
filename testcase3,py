@@ -1,0 +1,55 @@
+There's a theater with N seats and K gates.
+
+Each gate is located exactly at seat Ai and there're Bi audience waiting at that gate to be seated.
+
+You are in charged to assign the seating for each audience. Each audience can be assigned any seat.
+
+Determine the most minimum possible value of maximum distance taken by all audiences from their gate to their assigned seat.
+
+Input Format
+
+The first line contains a single integer T - The number of test cases.
+
+The first line of each test case contains two integers N and K The number of seats and the number of gates.
+
+The second line of each test case contains K integers A1,A2,...,Ak The location of each gate.
+
+The third line of each test case contains K integers B1,B2,...,Bk The number of audience waiting to be seated on each gate.
+
+Constraints
+
+T range should be from 1 to 20
+N range should be from 1 to 1000000
+K range should be from 1 to 200000
+A[i] range should be from 1 to N
+B[i] should be from 0 to 1000000
+
+Please note, that the sum of Bi for some test cases won't fit into 32-bit integer type, so you should use at least 64-bit integer type in your programming language (like long long for C++). For all valid inputs, the sum of Bi will always fit into 64-bit integer type.
+
+Output Format
+
+For each test case, print a single integer The most minimum possible value of maximum distance taken by all audiences from their gate to their assigned seat.
+
+If it is impossible to seat all audiences, then output .
+
+Sample Input 0
+
+4
+14 4
+3 8 11 12
+6 3 2 1
+6 3
+1 5 2
+2 3 0
+10 3
+3 6 9
+3 4 3
+6 4
+1 4 5 6
+4 1 1 2
+Sample Output 0
+
+3
+1
+2
+-1
