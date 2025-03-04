@@ -7,5 +7,6 @@ temp_array[2] = 'uhuy'
 # temp_array = first_array
 # temp_array[1] = 20 sama kaya javascript ini ngerubah array asli juga
 
-print("first_array", first_array)
-print("temp_array", temp_array) 
+# print("first_array", first_array)
+# print("temp_array", temp_array) 
+
